@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-image:
+        linear-gradient(to left bottom, rgba(102, 237, 255, 0.7), rgba(230, 255, 248, 0.7)),
+        url(./img/ayna.jpg);
+    height: 95vh;
+    background-size: cover;
+}
+
+.header {
+    background-image:
+        linear-gradient(to left bottom, rgba(102, 255, 102, 0.7), rgba(230, 255, 230, 0.7)),
+        url(./img/hms.jpg);
+    height: 95vh;
+    background-size: cover;
+    background-position: top;
+    clip-path: polygon(0 0, 13% 0, 100% 100%, 0 87%);
+    position: relative;
+
+}
+
+.heading {
+    text-transform: uppercase;
+    color: rgb(165, 162, 162);
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+    font-family: 'Shadows Into Light', cursive;
+}
+
+.heading-main {
+    font-size: 50px;
+    display: block;
+    letter-spacing: 15px;
+}
+
+.heading-sub {
+    font-size: 35px;
+    display: block;
+    letter-spacing: 5px;
+}
